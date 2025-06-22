@@ -4,12 +4,12 @@ project:
   output-dir: ../_site
 
 website:
-  title: "ARC-travellingo"
+  title: "RSE-retreat"
   image: "android-chrome-512x512.png"
   favicon: "favicon.ico"
   open-graph: true
   twitter-card: true
-  repo-url: https://github.com/UCL-ARC-Workshops/202405-arcgit-workshop
+  repo-url: https://github.com/UCL-ARC-RSEworkshop-summer-25/travel-guide
   page-navigation: true
   search: true
   back-to-top-navigation: true
@@ -18,7 +18,7 @@ website:
       - text: "License"
         href: license.qmd
   navbar:
-    title: "is travelling"
+    title: "RSE workshop is travelling "
     background: dark
     logo: UCL-ARC.png
     logo-alt: "ARC logo."

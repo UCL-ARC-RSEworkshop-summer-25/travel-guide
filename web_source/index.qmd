@@ -1,17 +1,17 @@
 ---
-title: "Welcome to the ARC travel plan"
+title: "Welcome to the ARC's RSE summer workshop travel plan"
 toc: false
 ---
 
-### The ARC team is planing to go on holidays
+### The RSE Summer workshop is planing to do a coding retreat
 
-ARC staff joins together to plan where it's going to be
-their next holiday location.
+ARC instructors and RSE Summer workshop learners joins together to plan where it's going to be
+their code retreat.
 
 ![Travel image from pngall](https://www.pngall.com/wp-content/uploads/2/Travel-PNG-Photo.png)
 
 ::: {.callout-note}
 #### Traveler opportunity!
 
-The team is looking for new travelers! Join us on the mission to find the perfect holiday destination.
+The team is looking for new travelers! Join us on the mission to find the perfect code retreat destination.
 :::

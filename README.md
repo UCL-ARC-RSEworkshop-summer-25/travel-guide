@@ -1,8 +1,8 @@
-# ARC-travel repository
+# RSE-travel repository
 
-**DISCLAIMER**: This repository is used to learn how to use GitHub and markdown (quarto) to publish content. The holidays planned may never happen, but it's up to you if you want it to happen.
+**DISCLAIMER**: This repository is used to learn how to use GitHub and markdown (quarto) to publish content. The travels planned may never happen, but it's up to you if you want it to happen.
 
-The steps seen in the workshop will be shared through a hackmd page.
+The steps to complete are provider as issues on the Classwork repository.
 
 ## About how this repository works
 
