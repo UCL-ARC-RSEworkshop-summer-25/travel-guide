@@ -1,0 +1,33 @@
+name: Check travellers
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python for testing
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+      - run: pip install pytest python-frontmatter
+      - name: test travellers formatting
+        run: pytest
+
+      - name: Checks travellers links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: "--no-progress web_source/travellers --verbose  -- './**/*.qmd'"
+          fail: true
+          jobSummary: true
