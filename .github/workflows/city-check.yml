@@ -1,16 +1,16 @@
-name: Check travellers
+name: Check Cities
 
 on:
   push:
     branches:
       - main
     paths:
-      - web_source/travellers/**
+      - web_source/cities/**
   pull_request:
     branches:
       - main
     paths:
-      - web_source/travellers/**
+      - web_source/cities/**
   workflow_dispatch:
 
 jobs:
@@ -19,19 +19,17 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Set up Python for testing
-        uses: actions/setup-python@v5
+      - uses: tj-actions/changed-files@v46
+        id: changed-cities-files
         with:
-          python-version: '3.13'
-          cache: 'pip'
-      - run: pip install pytest python-frontmatter
-      - name: test travellers formatting
-        run: pytest
-
+          base_sha: 'main'
+          files: web_source/cities/**/*.md
       - name: Checks travellers links
         id: lychee
         uses: lycheeverse/lychee-action@v2
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-cities-files.outputs.all_changed_files }}
         with:
-          args: "--no-progress web_source/travellers --verbose  -- './**/*.qmd'"
+          args: "--no-progress web_source/travellers --verbose  -- ${ALL_CHANGED_FILES}"
           fail: true
           jobSummary: true
