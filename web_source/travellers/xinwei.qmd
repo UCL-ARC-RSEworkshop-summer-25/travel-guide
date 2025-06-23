@@ -1,7 +1,7 @@
 ---
 title: "Xinwei Ju"
 subtitle: "Explorer"
-image: https://github.com/accounts/xinweiju.png
+image: https://upload.wikimedia.org/wikipedia/commons/4/43/Gullivers_travels.jpg
 toc: false
 about:
   id: person-profile
