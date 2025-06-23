@@ -17,4 +17,4 @@ al-Dār al-Bayḍāʾ
 
 ### Extra information
 
-- Link to [wikipedia]([https://wikipedia.org/FIXME](https://en.wikipedia.org/wiki/Casablanca))
+- Link to [wikipedia](https://en.wikipedia.org/wiki/Casablanca)
