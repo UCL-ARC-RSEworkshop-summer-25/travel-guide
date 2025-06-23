@@ -13,6 +13,6 @@ The lighthouse (El Faro) - It has a **1,000 watt bulb**, which is focused by a F
 ![Image of El Faro Lighthouse](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Faro_de_Mazatl%C3%A1n.JPG/800px-Faro_de_Mazatl%C3%A1n.JPG)
 (The image is in the public domain from WikiPedia)
 
-### Extra information  
+### Extra information
 
 - Link to [wikipedia](https://en.wikipedia.org/wiki/Mazatl%C3%A1n)
