@@ -1,0 +1,35 @@
+---
+title: "Antonio"
+subtitle: "Explorer"
+image: 
+toc: false
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../travellers.html">Travellers</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+Antonio likes to travel, he does not know some languages such as Lilliputian.
+
+## Travelled cities
+
+- Brobdingnag
+- Laputa
+- Balnibarbi
+- Luggnagg
+- Glubbdubdrib
+- Japan
+
