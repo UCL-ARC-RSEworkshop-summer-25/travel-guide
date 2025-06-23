@@ -18,4 +18,4 @@ Zamboanga's Pink Sand beach has been classified as one of the best beaches in th
 
 ### Extra information
 
-- Link to [[wikipedia](https://en.wikipedia.org/wiki/Zamboanga_City)]
+- Link to [wikipedia](https://en.wikipedia.org/wiki/Zamboanga_City)
