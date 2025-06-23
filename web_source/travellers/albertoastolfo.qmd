@@ -1,0 +1,32 @@
+---
+title: "Alberto"
+subtitle: "ExplorerLab Manager"
+image: https://www.google.com/imgres?q=alberto%20astolfo&imgurl=https%3A%2F%2Fprofiles.ucl.ac.uk%2F51742-alberto-astolfo%2Fphoto&imgrefurl=https%3A%2F%2Fprofiles.ucl.ac.uk%2F51742-alberto-astolfo&docid=fDuMwjox0PIbOM&tbnid=1WQ50JIKCaJ2HM&vet=12ahUKEwjhuLTEsIeOAxXKWEEAHaBOLFQQM3oECBwQAA..i&w=180&h=180&hcb=2&ved=2ahUKEwjhuLTEsIeOAxXKWEEAHaBOLFQQM3oECBwQAA
+
+toc: false
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../travellers.html">Travellers</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+Alberto likes to travel, but he cannot he knows some languages such as Italian.
+
+## Travelled cities
+
+- London
+- Venice
+
